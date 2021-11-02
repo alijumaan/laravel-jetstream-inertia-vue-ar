@@ -1,9 +1,9 @@
 ## Laravel with Inertia & Vue3 Project.
 
 ## Installation :
-- composer install
 - cp .env.example .env
-- create new database
+- create new database & migrate
+- composer install
 - php artisan key:generate
 - php artisan storage:link
 - php artisan migrate --seed
